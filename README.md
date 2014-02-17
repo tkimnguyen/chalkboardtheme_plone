@@ -7,3 +7,6 @@ This currently shows the Plone content object's title, body, and byline, as well
 
 Everything else is hardcoded – sorry :) – please contribute your improvements!
 
+To make this theme work correctly, in the Theming control panel's "Advanced settings" change the "Theme base" from the default "Sunburst Theme" to "(Unstyled)".
+
+
