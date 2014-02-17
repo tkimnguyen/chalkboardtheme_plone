@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules
+    xmlns="http://namespaces.plone.org/diazo"
+    xmlns:css="http://namespaces.plone.org/diazo/css"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+    <!-- right portlet column -->
+    <replace
+        css:theme="aside#gravatar-2 h1.widget-title"
+        css:content="td#portal-column-two"
+        />
+
+    <!-- page title -->
+    <replace
+        css:theme="h1.entry-title"
+        css:content="h1#parent-fieldname-title"
+        />
+
+    <!-- page byline  -->
+    <replace
+        css:theme="footer.entry-meta"
+        css:content="div#plone-document-byline"
+        />
+
+    <!-- page body -->
+    <replace
+        css:theme="div.entry-content p"
+        css:content="div#content-core"
+        />
+
+    <rules css:if-content="#visual-portal-wrapper">
+
+        <theme href="index.html" />
+
+        <!-- Replace title with Plone's page title  -->
+        <replace css:theme="html head title" css:content="html head title" />
+
+        <!-- Copy base tag from Plone -->
+        <before css:theme-children="html head" css:content="html head base" />
+
+        <!-- Copy link, style, meta tags from Plone head -->
+        <after css:theme-children="html head"
+               content="/html/head/link | /html/head/style | /html/head/meta" />
+
+        <!-- merge classes from Plone body with theme body -->
+        <merge attributes="class" css:theme="body" css:content="body" />
+
+        <!-- Copy script tags from Plone head to end of body -->
+        <after css:theme-children="html body" css:content="html head script" />
+
+        <!-- Insert your own rules here -->
+
+    </rules>
+
+</rules>
