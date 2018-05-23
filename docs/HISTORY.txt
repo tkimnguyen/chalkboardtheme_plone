@@ -4,4 +4,14 @@ Changelog
 0.1dev (unreleased)
 -------------------
 
+- Added a simple Diazo theme package (Zip file) [macagua]
+
+- Added improvements about README file [macagua]
+
+- Added HTML5 validation for HTML file [macagua]
+
+- Updated manifest file for diazo theme [macagua]
+
+- Added Plone theme package structure [macagua]
+
 - Initial release
