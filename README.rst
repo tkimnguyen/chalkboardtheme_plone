@@ -118,7 +118,8 @@ The project is licensed under the GPLv2.
 Credits
 -------
 
-- T\. Kim Nguyen (tkimnguyen).
+- T\. Kim Nguyen (tkimnguyen)
+- Leonardo J. Caballero G. (macagua)
 
 .. _`Chalkboard Theme`: https://wordpress.org/themes/classic-chalkboard/
 .. _`chalkboardtheme_plone`: https://github.com/tkimnguyen/chalkboardtheme_plone
