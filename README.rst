@@ -26,7 +26,7 @@ Screenshots
 
 Layout of the site when viewed in a computer resolution:
 
-.. image:: https://github.com/tkimnguyen/plonetheme.chalkboard/raw/master/screenshot.png
+.. image:: https://github.com/tkimnguyen/chalkboardtheme_plone/blob/master/screenshot.png
 
 
 Features
